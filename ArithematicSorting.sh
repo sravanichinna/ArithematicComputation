@@ -11,3 +11,4 @@ arr[0]=$result1
 arr[1]=$result2
 arr[2]=$result3
 arr[3]=$result4
+echo -e ${arr[@]}
