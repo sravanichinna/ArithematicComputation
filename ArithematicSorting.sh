@@ -3,3 +3,5 @@ echo "Welcome to Sorting Arithematic computation"
 read -p "Enter a number:" num1
 read -p "Enter a number:" num2
 read -p "Enter a number:" num3
+result1=$(( $num1 + $num2 * $num3 ))
+arr[0]=$result1
